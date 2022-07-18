@@ -1,0 +1,50 @@
+.active{
+    color: red !important;;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+.b{
+    color: black;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+.b::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336; 
+    display: block;
+    margin: auto;
+    transition:0.5s ;
+}
+.b:hover::after{
+    width:100%;
+
+}
+   
+
+.form-control{
+    border-radius: 60px;
+    border: 1px solid red;
+    outline: none;
+    margin-right: -35px;
+}
+.btn{
+height: 40px;
+width: 40%;
+outline: none;
+background: red;
+color: white;
+border-radius: 60px;
+font-weight: 700;
+border: red;
+}
+
+  
+
