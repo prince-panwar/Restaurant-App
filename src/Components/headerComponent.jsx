@@ -1,4 +1,4 @@
-import React, { Component,useState } from "react";
+import React, {useState } from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -13,7 +13,7 @@ import {Modal,ModalHeader,ModalBody} from 'reactstrap'
       const[isModalOpen,setIsModalOpen]=useState(false);
 
       const toggleModal=()=>{
-        return( setIsModalOpen({isModalOpen:!isModalOpen}));
+        return( setIsModalOpen(!isModalOpen));
        
       }
         return(
@@ -51,7 +51,7 @@ import {Modal,ModalHeader,ModalBody} from 'reactstrap'
       </Container>
     </Navbar>
     <Modal isOpen={isModalOpen} toggle={toggleModal}>
-<ModalHeader isOpen={isModalOpen} toggle={toggleModal}>Login</ModalHeader>
+<ModalHeader  toggle={toggleModal}>Login</ModalHeader>
 <ModalBody>
 <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
