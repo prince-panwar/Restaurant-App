@@ -28,7 +28,8 @@ a:hover{
     width:100%;
 
 }
-   
+
+  
 
 .form-control{
     border-radius: 60px;
@@ -45,6 +46,7 @@ color: white;
 border-radius: 60px;
 font-weight: 700;
 border: red;
+margin-right: 30px;
 }
 
   
