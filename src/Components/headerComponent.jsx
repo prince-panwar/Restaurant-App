@@ -23,9 +23,9 @@ import './header.css';
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link ><NavLink className="b" to='/'>Home</NavLink></Nav.Link>
-            <Nav.Link ><NavLink className="b"  to='/menu'>Menu</NavLink></Nav.Link>
-            <Nav.Link ><NavLink className="b"  to='/About'>About Us</NavLink></Nav.Link>
+            < NavLink className="b" to='/'>Home</NavLink>
+            < NavLink className="b"  to='/menu'>Menu</NavLink>
+            < NavLink className="b"  to='/About'>About Us</NavLink>
            
             
           </Nav>

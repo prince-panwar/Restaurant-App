@@ -10,7 +10,7 @@ function About(props) {
                 return(
                   
                    
-                    <div className="col-12 col-md-5 m-1">
+                    <div className="col-12 col-md-5 m-1" key={leader.id}>
                         
                <Card style={{ width: '18rem' }}>
                    

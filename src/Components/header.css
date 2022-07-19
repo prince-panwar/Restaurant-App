@@ -13,6 +13,7 @@ a:hover{
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
     text-transform: uppercase;
+    margin: 20px;
 }
 .b::after{
     content: '';
