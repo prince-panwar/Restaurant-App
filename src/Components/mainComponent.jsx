@@ -1,15 +1,14 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Menu from './MenuComponents';
 import DishDetails from './DishDetails';
-
-import { DISHES } from './shared/dishes';
-import { PROMOTIONS } from './shared/promotions';
-
-import { LEADERS} from './shared/leaders';
+import Contact from './contactComponent';
 import Header from './headerComponent';
 import Footer from './FooterComponent'
 import Home from './Home';
 import About from './About';
+import { DISHES } from './shared/dishes';
+import { PROMOTIONS } from './shared/promotions';
+import { LEADERS} from './shared/leaders';
 import{Routes,Route,} from 'react-router-dom';
 
 function Main() {
@@ -39,7 +38,7 @@ function Main() {
      
          <Route path='/menu/:dishId' element={<DishDetails/>} />
      
-        
+        <Route path='/contact' element={<Contact/>}/>
         
       </Routes>
      <Footer/>

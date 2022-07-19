@@ -59,11 +59,11 @@ console.log(comment);
               );
             })}
           </ul>
-          <button className='btn m-5' onClick={() => navigate('/menu')}>GO BACK </button>
+        
         </div>
 
       );
-    }else return <div> <button className='btn m-5' onClick={() => navigate('/menu')}>GO BACK </button></div>;
+    }else return <div> </div>;
   }
     
    
@@ -71,6 +71,7 @@ console.log(comment);
   
 
   return(
+    <>
      <div className="container">
      
       <div className="row">
@@ -78,8 +79,15 @@ console.log(comment);
       {renderComments(comment)}
      
       </div>
-    
+     </div>
+
+     <div className="container">
+      <div className="row">
+        <div className="col-7">  <button className='btn btn-success mb-4 mt-4 ' style={{borderRadius:"60px" ,background:"red"}} onClick={() => navigate('/menu')}>BACk </button></div>
       </div>
+     </div>
+    
+     </>
      
                
                 );

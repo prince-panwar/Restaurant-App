@@ -10,10 +10,8 @@ import './header.css';
  class Header extends Component{
     render(){
         return(
-            <>
-            <div className="row">
-              <div className="col-lg-12 col-sm-6">
-            <Navbar bg="transparent" expand="md">
+         
+            <Navbar bg="transparent" expand="sm">
       <Container fluid>
         <Navbar.Brand  >Restraunt</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -26,6 +24,7 @@ import './header.css';
             < NavLink className="b" to='/'>Home</NavLink>
             < NavLink className="b"  to='/menu'>Menu</NavLink>
             < NavLink className="b"  to='/About'>About Us</NavLink>
+            < NavLink className="b"  to='/contact'>Contact Us</NavLink>
            
             
           </Nav>
@@ -36,18 +35,14 @@ import './header.css';
             
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button className="sButton" variant="outline-success">Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
     </Navbar>
     
    
-     
-     
-    </div>
-     
-    </div>
+   
    
   
   
@@ -55,7 +50,7 @@ import './header.css';
     
     
 
-            </>
+            
 
         );
     }
